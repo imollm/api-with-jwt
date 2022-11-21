@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "test": "NODE_ENV=test jest --verbose --silent --detectOpenHandles",
-    "debug": "NODE_ENV=test node --watch --inspect=0.0.0.0 src/server.js"
+    "debug": "NODE_ENV=debug node --watch --inspect=0.0.0.0 src/server.js"
   },
   "keywords": [],
   "author": "Ivan Moll",
